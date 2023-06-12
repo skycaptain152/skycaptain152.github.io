@@ -1,0 +1,127 @@
+
+
+.navbar a {
+    display: inline-block;
+    align-items: center;
+    list-style-type: none;
+    color: #080808;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(225, 229, 238);
+    margin: 0;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: #fff;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+.background {
+    background-color: rgb(51, 109, 109);
+}
+
+.typing_video {
+    width: 100%;
+}
+
+.image1 {
+    filter: grayscale(100%);
+    border: 2px solid black;
+    border-radius: 8px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    transition: .5s;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    height: 360px;
+    text-align: center;
+}
+
+p {
+    font-size: 36px;
+}
+
+.image2 {
+    border: 2px solid black;
+    border-radius: 8px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+h1 {
+    font-size: 36px;
+    text-shadow: 0px 2px 4px #fff;
+}
+
+.image1:hover {
+    filter: grayscale(100%) blur(5px);
+    transition: 0.5s;
+}
+
+.Column_2 {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    padding-top: 1.9%;
+    height: 400px;
+    background-color: #4d4d4d;
+}
+
+input[type=text] {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+    font-family: Perpetua, Rockwell Extra Bold;
+}
+
+
+input[type=text]:hover {
+    box-shadow: 0 0 5px #00004d inset; 
+
+
+input[type=submit] {
+    background-color: black; 
+    color: white; 
+    font-weight: bold; 
+    padding: 12px 20px; 
+    border-radius: 4px; 
+    cursor: pointer; 
+    display: block;
+    margin-left: auto; 
+    margin-right: auto;
+    font-family: Perpetua, Rockwell Extra Bold;
+}
+
+
+input[type=submit]:hover {
+    background-color: white; 
+    color: black; 
+    transition: transform 1.5s; 
+}
+
+
+   
